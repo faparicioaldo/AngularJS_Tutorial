@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class InitController {
+public class IndexController {
 
-	@GetMapping("/init")
+	@GetMapping("/Hola")
 	public @ResponseBody String init() {
 		return "Hola Mundo!!!";
 	}
